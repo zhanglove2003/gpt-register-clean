@@ -1,0 +1,30 @@
+{
+  "heroSmsApiKey": "",
+  "heroSmsService": "dr",
+  "heroSmsCountry": 16,
+  "heroSmsPromptCountrySelection": true,
+  "heroSmsCountryTopN": 10,
+  "phoneCountryCode": "GB",
+  "mailProvider": "cloudflare-worker",
+  "mailBaseUrl": "",
+  "mailAdminToken": "",
+  "mailAdminPassword": "",
+  "mailSitePassword": "",
+  "mailAdminEmail": "",
+  "mailDomain": "",
+  "mailDomains": [],
+  "proxyHost": "",
+  "proxyPort": 0,
+  "proxyUsername": "",
+  "proxyPassword": "",
+  "useChrome": true,
+  "chromePath": "",
+  "browserUserDataDir": "browser-profile",
+  "browserIncognito": false,
+  "browserClearChatGptSession": false,
+  "targetTokenCount": 1,
+  "tokenOutputDir": "tokens",
+  "tokenOutputDirs": [
+    "tokens"
+  ]
+}

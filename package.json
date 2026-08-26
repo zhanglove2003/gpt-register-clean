@@ -1,0 +1,62 @@
+{
+  "name": "codex-remote-registrar",
+  "version": "1.0.0",
+  "description": "GPT register desktop console - stable single task desktop app",
+  "main": "desktop/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node index.js",
+    "check:desktop": "node --check desktop/main.js && node --check desktop/preload.js && node --check desktop/renderer/app.js",
+    "dist": "electron-builder --win portable"
+  },
+  "keywords": [
+    "codex",
+    "browserbase",
+    "ddg",
+    "registration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "dotenv": "^16.4.7",
+    "https-proxy-agent": "^9.1.0",
+    "puppeteer-core": "^24.40.0",
+    "puppeteer-real-browser": "^1.4.4",
+    "socks-proxy-agent": "^10.1.0",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "electron": "^42.5.0",
+    "electron-builder": "^26.15.3"
+  },
+  "build": {
+    "appId": "local.gpt-register.desktop",
+    "productName": "GPT Register Desktop Console",
+    "asar": false,
+    "npmRebuild": false,
+    "directories": {
+      "output": "desktop-release"
+    },
+    "files": [
+      "desktop/**/*",
+      "src/**/*",
+      "index.js",
+      "config.json",
+      "config.*.json",
+      "accounts.json",
+      "username.json",
+      "shibai.json",
+      "tokens/**/*",
+      "package.json",
+      "node_modules/**/*"
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ]
+    }
+  }
+}

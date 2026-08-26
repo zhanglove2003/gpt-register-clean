@@ -1,0 +1,27 @@
+# 依赖
+node_modules/
+
+# 运行时产物：token / 账号 / 日志 / 浏览器 profile
+tokens/
+accounts.json
+username.json
+shibai.json
+token-status.json
+logs/
+browser-profile/
+
+# 本地配置（含真实密钥，不入库）
+config.json
+config.local.json
+config.server.json
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+*.log
+
+# 本地扫描工具产物
+.mimosa/
+
+# 构建输出
+desktop-release/
