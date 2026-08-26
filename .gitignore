@@ -10,7 +10,7 @@ token-status.json
 logs/
 browser-profile/
 
-# 本地配置（含真实密钥，不入库）
+# 本地配置：config.json 由用户从 config.example.json 复制生成，填入真实密钥后勿提交
 config.json
 config.local.json
 config.server.json
