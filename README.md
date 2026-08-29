@@ -18,7 +18,7 @@
 ## Requirements
 
 - Node.js 18 或更高版本
-- 可用的 HeroSMS API Key
+- 可用的 HeroSMS API Key（注册：[hero-sms.com/?ref=1292253](https://hero-sms.com/?ref=1292253)，促销码 `plucksu` 至 2026-12-31 有效，会员 2 级号码价格 -15%）
 - 可用的临时邮箱服务
 - 可启动图形浏览器的运行环境
 
