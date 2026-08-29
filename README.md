@@ -241,6 +241,11 @@ node index.js --phase8
 - 不要把 `browser-profile/` 作为可共享产物，它可能包含登录状态。
 - 建议把生产配置放在本地覆盖配置文件中，只把 `config.example.json` 作为公开示例。
 
+## 相关项目
+
+- [icloud-private-email](https://github.com/zhanglove2003/icloud-private-email) — 把 iCloud+ 的「隐藏邮件地址」用作隐私邮箱的使用教程。
+- [clash-verge-non-hk-rotation](https://github.com/zhanglove2003/clash-verge-non-hk-rotation) — Clash Verge 非港轮询代理配置教程，为需要固定代理出口的场景提供参考。
+
 ## License
 
 [GNU Affero General Public License v3.0](./LICENSE) (AGPL-3.0)
